@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(white,rgb(27, 93, 236));
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 45px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 60vh;
+    width: 50vw;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 12px;
+    overflow-y: auto;
+    scroll-behavior: auto;
+}
+
+.message {
+    display: flex;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.middle {
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    max-width: 30%;
+    color: white;
+    margin: 5px;
+    padding: 7px 12px;
+    border-radius: 16px;
+}
+
+.bleft {
+    background-color: #5e5656;
+}
+
+.bright {
+    background-color: #135e55;
+}
+
+.bmiddle {
+    background-color: #5e5656;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    padding: 3px 7px;
+}
+
+#send-container {
+    display: flex;
+    justify-content: center;
+}
+
+#messageInp {
+    width: 40vw;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.btn {
+    margin: 5px;
+    width: 5vw;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+}
+
+
+
