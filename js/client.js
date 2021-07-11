@@ -7,9 +7,6 @@ const messageContainer = document.querySelector('.container');
 var audio = new Audio('popup.mp3');
 
 const append= (message, position, position2) => {
-    if(position !== 'right') {
-        audio.play();
-    }
     const messageElement = document.createElement('div');
     const messageElement2 = document.createElement('div');
     messageElement.classList.add('message');
@@ -19,6 +16,9 @@ const append= (message, position, position2) => {
     messageContainer.append(messageElement);
     messageElement.append(messageElement2);
     messageElement2.innerText= message;
+    if(position !== 'right') {
+        audio.play();
+    }
 }
 
 form.addEventListener('submit', (e) => {
