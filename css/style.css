@@ -90,11 +90,11 @@ nav {
 
 .btn {
     margin: 5px;
-    width: 5vw;
     border-radius: 8px;
     cursor: pointer;
-    border: none;
     padding: 5px 10px;
+    border: none;
+    overflow:auto;
 }
 
 

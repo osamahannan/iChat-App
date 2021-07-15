@@ -1,0 +1,11 @@
+.container {
+    width: 90vw;
+}
+
+#messageInp {
+    width: 60vw;
+}
+
+.box {
+    max-width: 45%;
+}
