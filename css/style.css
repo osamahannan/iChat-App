@@ -78,14 +78,14 @@ nav {
     justify-content: center;
 }
 
-#messageInp {
-    width: 40vw;
-    margin: 5px;
-    padding: 5px 10px;
-    border-radius: 16px;
-    border: none;
-    outline: none;
-    font-size: 1.1rem;
+.messageInp {
+    width: 40vw!important;
+    margin: 5px!important;
+    padding: 5px 10px!important;
+    border-radius: 16px!important;
+    border: none!important;
+    outline: none!important;
+    font-size: 1.1rem!important;
 }
 
 .btn {
