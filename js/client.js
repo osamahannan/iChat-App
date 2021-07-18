@@ -1,9 +1,13 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://ichat-app-carnage.herokuapp.com/');
 
 const form = document.getElementById('send-container');
 const messageInput= document.getElementById('messageInp');
 const messageContainer = document.querySelector('.container');
-var audio = new Audio('popup.mp3');
+var audio = new Audio('assets/popup.mp3');
+
+window.setInterval(function() {
+    messageContainer.scrollTop = messageContainer.scrollHeight;
+  }, 500);
 
 const append= (message, position, position2) => {
     const messageElement = document.createElement('div');
@@ -42,3 +46,4 @@ socket.on('receive', data => {
 socket.on('left', name => {
     append(`${name} left the chat`, 'middle', 'bmiddle')
 })
+

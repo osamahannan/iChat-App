@@ -30,7 +30,6 @@ nav {
     padding: 5px;
     border-radius: 12px;
     overflow-y: auto;
-    scroll-behavior: auto;
 }
 
 .message {
